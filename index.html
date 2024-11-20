@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="änimation">
+	<meta name="keywords" content="änimation">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="7 days">
+	<meta name="author" content="Shayla Sharmin">
+
+	<title>jq_ui_function</title>
+
+	<!--icons link-->
+	<link rel="stylesheet" href="css/bootstrap-icons.css">
+
+	<!--css links-->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+		
+</head>
+<body>
+	<!-- example 1:draggable -->
+	<section class="draggable mb-5">
+		<div class="container">
+			<div id="drag">
+			<p>Drag me around</p>
+			</div>
+		</div>
+	</section>
+	<!-- example 2:draggable -->
+	<section class="sort1 mb-5">
+		<div class="container">
+			<div class="sort">
+				<ul id="sortable">
+
+				  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+				  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+				  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+				  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+				  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+				  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+				  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- example 3:accordian -->
+	<section class="accor mb-5">
+		<div class="container">
+			<div id="accordion">
+			  <h3>Section 1</h3>
+			  <div>
+			    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+			  </div>
+			  <h3>Section 2</h3>
+			  <div>
+			    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+			  </div>
+			</div>
+		</div>
+	</section>
+	<!-- example 4:autocomplete -->
+	<section class="search mb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<form action="#">
+						<div class="mt-3 mb_3">
+							<label for="c_name" class="form-control">Enter your favourite course name</label>
+							<input type="text" class="form-control" id="c_name">
+							<div class="mb_3">
+								<button type="submit" class="btn btn-dark">submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- example 5:date picker -->
+	<section class="date mb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<p>Date: <input type="text" id="date"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- example 6:date picker -->
+	<section class="selectmenu mb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="demo">
+						<form action="#">
+						  <fieldset>
+						    <label for="speed">Select a speed</label>
+						    <select name="speed" id="speed">
+						      <option>Slower</option>
+						      <option>Slow</option>
+						      <option selected="selected">Medium</option>
+						      <option>Fast</option>
+						      <option>Faster</option>
+						    </select>
+						 
+						    <label for="files">Select a file</label>
+						    <select name="files" id="files">
+						      <optgroup label="Scripts">
+						        <option value="jquery">jQuery.js</option>
+						        <option value="jqueryui">ui.jQuery.js</option>
+						      </optgroup>
+						      <optgroup label="Other files">
+						        <option value="somefile">Some unknown file</option>
+						        <option value="someotherfile">Some other file with a very long option text</option>
+						      </optgroup>
+						    </select>
+						 
+						    <label for="number">Select a number</label>
+						    <select name="number" id="number">
+						      <option>1</option>
+						      <option selected="selected">2</option>
+						      <option>3</option>
+						      <option>4</option>
+						      <option>5</option>
+						      <option>6</option>
+						      <option>7</option>
+						      <option>8</option>
+						      <option>9</option>
+						      <option>10</option>
+						      <option>11</option>
+						      <option>12</option>
+						      <option>13</option>
+						      <option>14</option>
+						      <option>15</option>
+						      <option>16</option>
+						      <option>17</option>
+						      <option>18</option>
+						      <option>19</option>
+						    </select>
+						 
+						    <label for="salutation">Select a title</label>
+						    <select name="salutation" id="salutation">
+						      <option disabled="" selected="">Please pick one</option>
+						      <option>Mr.</option>
+						      <option>Mrs.</option>
+						      <option>Dr.</option>
+						      <option>Prof.</option>
+						      <option>Other</option>
+						    </select>
+						  </fieldset>
+						 
+						</form>
+						 
+						</div>
+						 
+					</fieldset>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- example 7:tooltip -->
+ 	<section class="selectmenu">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p><a href="#" title="That's what this widget is">Tooltips</a> can be attached to any element. When you hover
+					the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.</p>
+					<p>But as it's not a native tooltip, it can be styled. Any themes built with
+					<a href="https://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI's theme builder application">ThemeRoller</a>
+					will also style tooltips accordingly.</p>
+					<p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+					<p><label class="l1" for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+					<p>Hover the field to see the tooltip.</p>
+				</div>
+			</div>
+		</div>
+	 </section>
+	 
+
+
+	<!--js links-->
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+	<!-- example 6:date picker -->
+ 	<!-- <section class="selectmenu">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					
+				</div>
+
+			</div>
+		</div>
+	 </section> -->
+
